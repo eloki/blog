@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[记忆碎片]]></title>
+  <subtitle><![CDATA[It's so far away...]]></subtitle>
+  <link href="/blog/atom.xml" rel="self"/>
+  <link href="http://eloki.github.io/"/>
+  <updated>2016-01-06T15:51:47.977Z</updated>
+  <id>http://eloki.github.io/</id>
+  
+  <author>
+    <name><![CDATA[Mckay Huang]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Hexo常用插件列表]]></title>
+    <link href="http://eloki.github.io/2016/01/06/Hexo%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/"/>
+    <id>http://eloki.github.io/2016/01/06/Hexo常用插件列表/</id>
+    <published>2016-01-06T15:42:09.000Z</published>
+    <updated>2016-01-06T15:51:47.977Z</updated>
+    <content type="html"><![CDATA[<h3 id="Git_u90E8_u7F72"><a href="#Git_u90E8_u7F72" class="headerlink" title="Git部署"></a>Git部署</h3><p>Install hexo-deployer-git.</p>
+<pre><code class="bash">$ npm install hexo-deployer-git --save
+</code></pre>
+<p>Edit settings.</p>
+<pre><code class="bash">deploy:
+  <span class="built_in">type</span>: git
+  repo: &lt;repository url&gt;
+</code></pre>
+<h3 id="RSS_u5206_u4EAB"><a href="#RSS_u5206_u4EAB" class="headerlink" title="RSS分享"></a>RSS分享</h3><p>安装RSS插件：</p>
+<pre><code class="bash">npm install hexo-generator-feed --save
+</code></pre>
+<p>启用插件：<br>在hexo_config.yml文件添加插件配置项</p>
+<pre><code class="bash">plugins:
+- hexo-generator-feed
+</code></pre>
+<p>升级插件：</p>
+<pre><code class="bash">npm update
+</code></pre>
+<p>卸载插件：</p>
+<pre><code class="bash">npm uninstall hexo-generator-feed
+</code></pre>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="Git_u90E8_u7F72"><a href="#Git_u90E8_u7F72" class="headerlink" title="Git部署"></a>Git部署</h3><p>Install hexo-deployer-git.</p>
+<pre><c]]>
+    </summary>
+    
+      <category term="node.js" scheme="http://eloki.github.io/tags/node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hexo在github上部署静态Blog]]></title>
+    <link href="http://eloki.github.io/2016/01/06/Hexo%E5%9C%A8github%E4%B8%8A%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81Blog/"/>
+    <id>http://eloki.github.io/2016/01/06/Hexo在github上部署静态Blog/</id>
+    <published>2016-01-06T15:29:00.000Z</published>
+    <updated>2016-01-06T15:40:30.204Z</updated>
+    <content type="html"><![CDATA[<p>系统环境<br>Windows 10 专业版</p>
+<h3 id="u5B89_u88C5_u524D_u63D0"><a href="#u5B89_u88C5_u524D_u63D0" class="headerlink" title="安装前提"></a>安装前提</h3><p>Node.js<br>Git</p>
+<h3 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h3><pre><code class="bash">npm install -g hexo-cli
+</code></pre>
+<h3 id="u5EFA_u7AD9"><a href="#u5EFA_u7AD9" class="headerlink" title="建站"></a>建站</h3><p>执行下列命令，Hexo创建最简站点</p>
+<pre><code class="bash">$ hexo init &lt;folder&gt;
+$ <span class="built_in">cd</span> &lt;folder&gt;
+$ npm install
+</code></pre>
+<p>文件夹结构</p>
+<pre><code class="bash">.
+├── _config.yml
+├── package.json
+├── scaffolds
+├── <span class="built_in">source</span>
+|   ├── _drafts
+|   └── _posts
+└── themes
+</code></pre>
+<p>_config.yml<br>网站的配置信息</p>
+<p>package.json<br>npm包</p>
+<p>scaffolds<br>模版 文件夹。当您新建文章时，Hexo 会根据 scaffold 来建立文件。</p>
+<p>source<br>资源文件夹是存放用户资源的地方。除 <em>posts 文件夹之外，开头命名为 </em> (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。</p>
+<p>themes<br>主题 文件夹。Hexo 会根据主题来生成静态页面。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>系统环境<br>Windows 10 专业版</p>
+<h3 id="u5B89_u88C5_u524D_u63D0"><a href="#u5B89_u88C5_u524D_u63D0" class="headerlink" title="安装前提"></a>安装前提</]]>
+    </summary>
+    
+      <category term="node.js" scheme="http://eloki.github.io/tags/node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Git for Windows安装与使用]]></title>
+    <link href="http://eloki.github.io/2016/01/01/Git-for-Windows%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    <id>http://eloki.github.io/2016/01/01/Git-for-Windows安装与使用/</id>
+    <published>2016-01-01T14:58:12.000Z</published>
+    <updated>2016-01-06T15:23:07.332Z</updated>
+    <content type="html"><![CDATA[<p>系统环境<br>Windows 10 专业版</p>
+<h3 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h3><p><a href="https://git-for-windows.github.io/" target="_blank" rel="external">https://git-for-windows.github.io/</a></p>
+<h3 id="u73AF_u5883_u53D8_u91CF"><a href="#u73AF_u5883_u53D8_u91CF" class="headerlink" title="环境变量"></a>环境变量</h3><pre><code class="bash">C:\Program Files\Git\cmd;
+C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;
+</code></pre>
+<h3 id="u7533_u8BF7Github_u8D26_u53F7"><a href="#u7533_u8BF7Github_u8D26_u53F7" class="headerlink" title="申请Github账号"></a>申请Github账号</h3><p><a href="https://github.com/" target="_blank" rel="external">https://github.com/</a></p>
+<h3 id="u8BBE_u7F6EGit_u7684username_u548Cemail"><a href="#u8BBE_u7F6EGit_u7684username_u548Cemail" class="headerlink" title="设置Git的username和email"></a>设置Git的username和email</h3><pre><code class="bash">$ git config --global user.name <span class="string">"username"</span>
+$ git config --global user.email <span class="string">"name@org.com"</span>
+$ git config --list
+</code></pre>
+<h3 id="u751F_u6210_u5BC6_u94A5"><a href="#u751F_u6210_u5BC6_u94A5" class="headerlink" title="生成密钥"></a>生成密钥</h3><pre><code class="bash">$ ssh-keygen -t rsa -C <span class="string">"name@org.com"</span>
+</code></pre>
+<h2 id="Github_u6DFB_u52A0ssh_key"><a href="#Github_u6DFB_u52A0ssh_key" class="headerlink" title="Github添加ssh key"></a>Github添加ssh key</h2><p>Account Settings -&gt; SSH Keys -&gt; Add SSH key</p>
+<h2 id="u9A8C_u8BC1ssh_key"><a href="#u9A8C_u8BC1ssh_key" class="headerlink" title="验证ssh key"></a>验证ssh key</h2><pre><code class="bash">$ ssh -T git@github.com
+</code></pre>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>系统环境<br>Windows 10 专业版</p>
+<h3 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[node.js开发环境]]></title>
+    <link href="http://eloki.github.io/2016/01/01/node-js%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    <id>http://eloki.github.io/2016/01/01/node-js开发环境/</id>
+    <published>2016-01-01T14:45:42.000Z</published>
+    <updated>2016-01-06T15:23:02.745Z</updated>
+    <content type="html"><![CDATA[<p>系统环境<br>Windows 10 专业版</p>
+<h3 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h3><p><a href="https://nodejs.org/en/" target="_blank" rel="external">https://nodejs.org/en/</a><br>LTS：   Long Term Support:长时间支持版本<br>Stable：最终稳定版本</p>
+<h3 id="u73AF_u5883_u53D8_u91CF"><a href="#u73AF_u5883_u53D8_u91CF" class="headerlink" title="环境变量"></a>环境变量</h3><pre><code class="bash">C:\Program Files\nodejs\;
+C:\Users\Mckay\AppData\Roaming\npm;
+</code></pre>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>系统环境<br>Windows 10 专业版</p>
+<h3 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</]]>
+    </summary>
+    
+      <category term="node.js" scheme="http://eloki.github.io/tags/node-js/"/>
+    
+  </entry>
+  
+</feed>
