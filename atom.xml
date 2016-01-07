@@ -69,8 +69,8 @@ mongotop.exe：跟踪MongDB实例读写时间工具
     <link href="http://eloki.github.io/2016/01/06/Hexo%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/"/>
     <id>http://eloki.github.io/2016/01/06/Hexo常用插件列表/</id>
     <published>2016-01-06T15:42:09.000Z</published>
-    <updated>2016-01-06T15:51:47.977Z</updated>
-    <content type="html"><![CDATA[<h3 id="Git_u90E8_u7F72"><a href="#Git_u90E8_u7F72" class="headerlink" title="Git部署"></a>Git部署</h3><p>Install hexo-deployer-git.</p>
+    <updated>2016-01-07T15:01:50.458Z</updated>
+    <content type="html"><![CDATA[<h1 id="Git_u90E8_u7F72"><a href="#Git_u90E8_u7F72" class="headerlink" title="Git部署"></a>Git部署</h1><p>Install hexo-deployer-git.</p>
 <pre><code class="bash">$ npm install hexo-deployer-git --save
 </code></pre>
 <p>Edit settings.</p>
@@ -78,22 +78,22 @@ mongotop.exe：跟踪MongDB实例读写时间工具
   <span class="built_in">type</span>: git
   repo: &lt;repository url&gt;
 </code></pre>
-<h3 id="RSS_u5206_u4EAB"><a href="#RSS_u5206_u4EAB" class="headerlink" title="RSS分享"></a>RSS分享</h3><p>安装RSS插件：</p>
+<h1 id="RSS_u5206_u4EAB"><a href="#RSS_u5206_u4EAB" class="headerlink" title="RSS分享"></a>RSS分享</h1><p><strong>安装RSS插件</strong></p>
 <pre><code class="bash">npm install hexo-generator-feed --save
 </code></pre>
-<p>启用插件：<br>在hexo_config.yml文件添加插件配置项</p>
+<p><strong>启用插件</strong><br>在hexo_config.yml文件添加插件配置项</p>
 <pre><code class="bash">plugins:
 - hexo-generator-feed
 </code></pre>
-<p>升级插件：</p>
+<p><strong>升级插件</strong></p>
 <pre><code class="bash">npm update
 </code></pre>
-<p>卸载插件：</p>
+<p><strong>卸载插件</strong></p>
 <pre><code class="bash">npm uninstall hexo-generator-feed
 </code></pre>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h3 id="Git_u90E8_u7F72"><a href="#Git_u90E8_u7F72" class="headerlink" title="Git部署"></a>Git部署</h3><p>Install hexo-deployer-git.</p>
+    <![CDATA[<h1 id="Git_u90E8_u7F72"><a href="#Git_u90E8_u7F72" class="headerlink" title="Git部署"></a>Git部署</h1><p>Install hexo-deployer-git.</p>
 <pre><c]]>
     </summary>
     
@@ -106,12 +106,12 @@ mongotop.exe：跟踪MongDB实例读写时间工具
     <link href="http://eloki.github.io/2016/01/06/Hexo%E5%9C%A8github%E4%B8%8A%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81Blog/"/>
     <id>http://eloki.github.io/2016/01/06/Hexo在github上部署静态Blog/</id>
     <published>2016-01-06T15:29:00.000Z</published>
-    <updated>2016-01-06T15:40:30.204Z</updated>
+    <updated>2016-01-07T15:01:50.458Z</updated>
     <content type="html"><![CDATA[<p>系统环境<br>Windows 10 专业版</p>
 <h3 id="u5B89_u88C5_u524D_u63D0"><a href="#u5B89_u88C5_u524D_u63D0" class="headerlink" title="安装前提"></a>安装前提</h3><p>Node.js<br>Git</p>
-<h3 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h3><pre><code class="bash">npm install -g hexo-cli
+<h1 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h1><pre><code class="bash">npm install -g hexo-cli
 </code></pre>
-<h3 id="u5EFA_u7AD9"><a href="#u5EFA_u7AD9" class="headerlink" title="建站"></a>建站</h3><p>执行下列命令，Hexo创建最简站点</p>
+<h1 id="u5EFA_u7AD9"><a href="#u5EFA_u7AD9" class="headerlink" title="建站"></a>建站</h1><p>执行下列命令，Hexo创建最简站点</p>
 <pre><code class="bash">$ hexo init &lt;folder&gt;
 $ <span class="built_in">cd</span> &lt;folder&gt;
 $ npm install
