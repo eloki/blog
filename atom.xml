@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's so far away...]]></subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   <link href="http://eloki.github.io/"/>
-  <updated>2016-01-07T14:51:27.283Z</updated>
+  <updated>2016-01-07T15:03:57.000Z</updated>
   <id>http://eloki.github.io/</id>
   
   <author>
@@ -16,10 +16,10 @@
   
   <entry>
     <title><![CDATA[MongoDB for Windows安装与使用]]></title>
-    <link href="http://eloki.github.io/2016/01/07/MongoDB-for-Windows%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
-    <id>http://eloki.github.io/2016/01/07/MongoDB-for-Windows安装与使用/</id>
+    <link href="http://eloki.github.io/2016/01/07/Z01_MongoDB-for-Windows%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    <id>http://eloki.github.io/2016/01/07/Z01_MongoDB-for-Windows安装与使用/</id>
     <published>2016-01-07T14:23:11.000Z</published>
-    <updated>2016-01-07T14:51:27.283Z</updated>
+    <updated>2016-01-07T15:03:57.000Z</updated>
     <content type="html"><![CDATA[<p>系统环境<br>Windows 10 专业版</p>
 <h1 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h1><p><a href="https://www.mongodb.org/downloads" target="_blank" rel="external">https://www.mongodb.org/downloads</a></p>
 <h1 id="u73AF_u5883_u53D8_u91CF"><a href="#u73AF_u5883_u53D8_u91CF" class="headerlink" title="环境变量"></a>环境变量</h1><pre><code class="bash">C:\Program Files\MongoDB\Server\3.2\bin;
@@ -66,10 +66,10 @@ mongotop.exe：跟踪MongDB实例读写时间工具
   
   <entry>
     <title><![CDATA[Hexo常用插件列表]]></title>
-    <link href="http://eloki.github.io/2016/01/06/Hexo%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/"/>
-    <id>http://eloki.github.io/2016/01/06/Hexo常用插件列表/</id>
+    <link href="http://eloki.github.io/2016/01/06/A91_Hexo%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8/"/>
+    <id>http://eloki.github.io/2016/01/06/A91_Hexo常用插件列表/</id>
     <published>2016-01-06T15:42:09.000Z</published>
-    <updated>2016-01-07T15:01:50.458Z</updated>
+    <updated>2016-01-07T15:04:05.000Z</updated>
     <content type="html"><![CDATA[<h1 id="Git_u90E8_u7F72"><a href="#Git_u90E8_u7F72" class="headerlink" title="Git部署"></a>Git部署</h1><p>Install hexo-deployer-git.</p>
 <pre><code class="bash">$ npm install hexo-deployer-git --save
 </code></pre>
@@ -103,10 +103,10 @@ mongotop.exe：跟踪MongDB实例读写时间工具
   
   <entry>
     <title><![CDATA[Hexo在github上部署静态Blog]]></title>
-    <link href="http://eloki.github.io/2016/01/06/Hexo%E5%9C%A8github%E4%B8%8A%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81Blog/"/>
-    <id>http://eloki.github.io/2016/01/06/Hexo在github上部署静态Blog/</id>
+    <link href="http://eloki.github.io/2016/01/06/A90_Hexo%E5%9C%A8github%E4%B8%8A%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81Blog/"/>
+    <id>http://eloki.github.io/2016/01/06/A90_Hexo在github上部署静态Blog/</id>
     <published>2016-01-06T15:29:00.000Z</published>
-    <updated>2016-01-07T15:01:50.458Z</updated>
+    <updated>2016-01-07T15:03:16.000Z</updated>
     <content type="html"><![CDATA[<p>系统环境<br>Windows 10 专业版</p>
 <h3 id="u5B89_u88C5_u524D_u63D0"><a href="#u5B89_u88C5_u524D_u63D0" class="headerlink" title="安装前提"></a>安装前提</h3><p>Node.js<br>Git</p>
 <h1 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h1><pre><code class="bash">npm install -g hexo-cli
@@ -143,10 +143,10 @@ $ npm install
   
   <entry>
     <title><![CDATA[Git for Windows安装与使用]]></title>
-    <link href="http://eloki.github.io/2016/01/01/Git-for-Windows%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
-    <id>http://eloki.github.io/2016/01/01/Git-for-Windows安装与使用/</id>
+    <link href="http://eloki.github.io/2016/01/01/Z00_Git-for-Windows%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
+    <id>http://eloki.github.io/2016/01/01/Z00_Git-for-Windows安装与使用/</id>
     <published>2016-01-01T14:58:12.000Z</published>
-    <updated>2016-01-07T14:51:39.262Z</updated>
+    <updated>2016-01-07T15:03:47.000Z</updated>
     <content type="html"><![CDATA[<p>系统环境<br>Windows 10 专业版</p>
 <h1 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h1><p><a href="https://git-for-windows.github.io/" target="_blank" rel="external">https://git-for-windows.github.io/</a></p>
 <h1 id="u73AF_u5883_u53D8_u91CF"><a href="#u73AF_u5883_u53D8_u91CF" class="headerlink" title="环境变量"></a>环境变量</h1><pre><code class="bash">C:\Program Files\Git\cmd;
@@ -177,10 +177,10 @@ $ git config --list
   
   <entry>
     <title><![CDATA[node.js开发环境]]></title>
-    <link href="http://eloki.github.io/2016/01/01/node-js%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
-    <id>http://eloki.github.io/2016/01/01/node-js开发环境/</id>
+    <link href="http://eloki.github.io/2016/01/01/A00_node-js%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    <id>http://eloki.github.io/2016/01/01/A00_node-js开发环境/</id>
     <published>2016-01-01T14:45:42.000Z</published>
-    <updated>2016-01-07T14:44:19.070Z</updated>
+    <updated>2016-01-07T15:03:24.000Z</updated>
     <content type="html"><![CDATA[<p>系统环境<br>Windows 10 专业版</p>
 <h1 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h1><p><a href="https://nodejs.org/en/" target="_blank" rel="external">https://nodejs.org/en/</a><br>LTS：   Long Term Support:长时间支持版本<br>Stable：最终稳定版本</p>
 <h1 id="u73AF_u5883_u53D8_u91CF"><a href="#u73AF_u5883_u53D8_u91CF" class="headerlink" title="环境变量"></a>环境变量</h1><pre><code class="bash">C:\Program Files\nodejs\;
