@@ -4,7 +4,7 @@
   <subtitle><![CDATA[It's so far away...]]></subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   <link href="http://eloki.github.io/"/>
-  <updated>2016-01-07T14:49:57.194Z</updated>
+  <updated>2016-01-07T14:51:27.283Z</updated>
   <id>http://eloki.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://eloki.github.io/2016/01/07/MongoDB-for-Windows%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
     <id>http://eloki.github.io/2016/01/07/MongoDB-for-Windows安装与使用/</id>
     <published>2016-01-07T14:23:11.000Z</published>
-    <updated>2016-01-07T14:49:57.194Z</updated>
+    <updated>2016-01-07T14:51:27.283Z</updated>
     <content type="html"><![CDATA[<p>系统环境<br>Windows 10 专业版</p>
 <h1 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h1><p><a href="https://www.mongodb.org/downloads" target="_blank" rel="external">https://www.mongodb.org/downloads</a></p>
 <h1 id="u73AF_u5883_u53D8_u91CF"><a href="#u73AF_u5883_u53D8_u91CF" class="headerlink" title="环境变量"></a>环境变量</h1><pre><code class="bash">C:\Program Files\MongoDB\Server\3.2\bin;
@@ -59,6 +59,8 @@ mongotop.exe：跟踪MongDB实例读写时间工具
     <![CDATA[<p>系统环境<br>Windows 10 专业版</p>
 <h1 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</]]>
     </summary>
+    
+      <category term="node.js" scheme="http://eloki.github.io/tags/node-js/"/>
     
   </entry>
   
@@ -144,7 +146,7 @@ $ npm install
     <link href="http://eloki.github.io/2016/01/01/Git-for-Windows%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8/"/>
     <id>http://eloki.github.io/2016/01/01/Git-for-Windows安装与使用/</id>
     <published>2016-01-01T14:58:12.000Z</published>
-    <updated>2016-01-07T14:47:56.348Z</updated>
+    <updated>2016-01-07T14:51:39.262Z</updated>
     <content type="html"><![CDATA[<p>系统环境<br>Windows 10 专业版</p>
 <h1 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h1><p><a href="https://git-for-windows.github.io/" target="_blank" rel="external">https://git-for-windows.github.io/</a></p>
 <h1 id="u73AF_u5883_u53D8_u91CF"><a href="#u73AF_u5883_u53D8_u91CF" class="headerlink" title="环境变量"></a>环境变量</h1><pre><code class="bash">C:\Program Files\Git\cmd;
@@ -168,6 +170,8 @@ $ git config --list
     <![CDATA[<p>系统环境<br>Windows 10 专业版</p>
 <h1 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</]]>
     </summary>
+    
+      <category term="node.js" scheme="http://eloki.github.io/tags/node-js/"/>
     
   </entry>
   
