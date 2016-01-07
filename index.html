@@ -72,9 +72,85 @@
     <div class="outer">
       <section id="main">
   
-    <article id="post-Z01_MongoDB-for-Windows安装与使用" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-T00_Sublime-Text-3文本编辑器" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/blog/2016/01/07/Z01_MongoDB-for-Windows安装与使用/" class="article-date">
+    <a href="/blog/2016/01/07/T00_Sublime-Text-3文本编辑器/" class="article-date">
+  <time datetime="2016-01-07T15:58:22.000Z" itemprop="datePublished">2016-01-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/blog/2016/01/07/T00_Sublime-Text-3文本编辑器/">Sublime Text3 文本编辑器</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>系统环境<br>Windows 10 专业版</p>
+<h1 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h1><p><a href="http://www.sublimetext.com/3" target="_blank" rel="external">http://www.sublimetext.com/3</a></p>
+<h1 id="u5347_u7EA7"><a href="#u5347_u7EA7" class="headerlink" title="升级"></a>升级</h1><p>配置中加入”update_check”: false可以禁用自动更新</p>
+<h1 id="u6C49_u5316"><a href="#u6C49_u5316" class="headerlink" title="汉化"></a>汉化</h1><p>点击Preferneces -&gt; Browse Packages ，将会弹出当前的配置文件夹，将3083汉化包内的三个文件夹放到该文件夹内，汉化立刻生效。</p>
+<h1 id="u5B89_u88C5Package_Control"><a href="#u5B89_u88C5Package_Control" class="headerlink" title="安装Package Control"></a>安装Package Control</h1><p>使用Ctrl+`快捷键或者通过View-&gt;Show Console菜单打开命令行，粘贴代码：</p>
+<pre><code>import urllib.request,os; pf = &apos;Package Control.sublime-package&apos;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &apos;wb&apos;).write(urllib.request.urlopen( &apos;http://sublime.wbond.net/&apos; + pf.replace(&apos; &apos;,&apos;%20&apos;)).read())
+</code></pre><p>如果无法使用代码安装，可手动安装Package Control：<br>1.点击Preferences -&gt; Browse Packages<br>2.进入打开的目录的上层目录，然后再进入Installed Packages目录<br>3.下载Package Control.sublime-package并复制到Installed Packages目录<br>4.重启Sublime Text。</p>
+<h1 id="u63D2_u4EF6_u5B89_u88C5"><a href="#u63D2_u4EF6_u5B89_u88C5" class="headerlink" title="插件安装"></a>插件安装</h1><p>点击快捷键 Ctrl + Shift + P 输入 Install 点击回车, 输入 插件名称 再点击回车</p>
+<h1 id="GBK/GB2312_u4E2D_u6587_u7F16_u7801_u652F_u6301"><a href="#GBK/GB2312_u4E2D_u6587_u7F16_u7801_u652F_u6301" class="headerlink" title="GBK/GB2312中文编码支持"></a>GBK/GB2312中文编码支持</h1><p>在Package Control输入ConvertToUTF8,安装一下插件就可以识别了,方法和上面一样</p>
+<h1 id="u53F3_u952E_u83DC_u5355"><a href="#u53F3_u952E_u83DC_u5355" class="headerlink" title="右键菜单"></a>右键菜单</h1><p>以下内容在安装目录保存为.inf文件，右键-&gt;安装</p>
+<pre><code>[Version] 
+Signature=&quot;$Windows NT$&quot; 
+[DefaultInstall] 
+AddReg=SublimeText3 
+[SublimeText3] 
+hkcr,&quot;*\\shell\\SublimeText3&quot;,,,&quot;用 SublimeText3 打开&quot; 
+hkcr,&quot;*\\shell\\SublimeText3\\command&quot;,,,&quot;&quot;&quot;%1%\sublime_text.exe&quot;&quot; &quot;&quot;%%1&quot;&quot; %%*&quot; 
+hkcr,&quot;Directory\shell\SublimeText3&quot;,,,&quot;用 SublimeText3 打开&quot; 
+hkcr,&quot;*\\shell\\SublimeText3&quot;,&quot;Icon&quot;,0x20000,&quot;%1%\sublime_text.exe, 0&quot; 
+hkcr,&quot;Directory\shell\SublimeText3\command&quot;,,,&quot;&quot;&quot;%1%\sublime_text.exe&quot;&quot; &quot;&quot;%%1&quot;&quot;&quot;
+</code></pre><h1 id="u5E38_u7528_u914D_u7F6E"><a href="#u5E38_u7528_u914D_u7F6E" class="headerlink" title="常用配置"></a>常用配置</h1><pre><code>{
+    &quot;line_numbers&quot;: true,      //是否显示行号
+    &quot;gutter&quot;: true,            //是否显示边列
+    &quot;draw_centered&quot;: false,      //是否居中显示
+    //&quot;wrap_width&quot;: 170,           //换行宽度(单位：字符)
+    &quot;word_wrap&quot;: true,          //是否自动换行
+    &quot;scroll_past_end&quot;: true,     //滚动能否超过结尾
+    &quot;font_face&quot;: &quot;Consolas YaHei&quot;,          //字体
+    &quot;font_size&quot;: 11,         //字体大小
+    &quot;line_padding_top&quot;: 1,         //行高
+    &quot;line_padding_bottom&quot;: 1, 
+    &quot;tab_size&quot;: 2,         //TAB缩进宽度
+    &quot;translate_tabs_to_spaces&quot;: false,         //自动转换TAB为空格
+    &quot;update_check&quot;: false,         //禁用自动更新
+    &quot;theme&quot;: &quot;Soda Dark 3.sublime-theme&quot;         //皮肤
+}
+</code></pre>
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="http://eloki.github.io/2016/01/07/T00_Sublime-Text-3文本编辑器/" data-id="cij4gx7jg0003dgwngez2sre1" class="article-share-link" data-share="baidu">分享到</a>
+      
+
+      
+
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-G01_MongoDB-for-Windows安装与使用" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/blog/2016/01/07/G01_MongoDB-for-Windows安装与使用/" class="article-date">
   <time datetime="2016-01-07T14:23:11.000Z" itemprop="datePublished">2016-01-07</time>
 </a>
     
@@ -86,7 +162,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/blog/2016/01/07/Z01_MongoDB-for-Windows安装与使用/">MongoDB for Windows安装与使用</a>
+      <a class="article-title" href="/blog/2016/01/07/G01_MongoDB-for-Windows安装与使用/">MongoDB for Windows安装与使用</a>
     </h1>
   
 
@@ -133,7 +209,7 @@ mongotop.exe：跟踪MongDB实例读写时间工具
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://eloki.github.io/2016/01/07/Z01_MongoDB-for-Windows安装与使用/" data-id="cij4dxbg700036ownynoxyt0m" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://eloki.github.io/2016/01/07/G01_MongoDB-for-Windows安装与使用/" data-id="cij4gx7jg0004dgwndea2h0uo" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -196,7 +272,7 @@ mongotop.exe：跟踪MongDB实例读写时间工具
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://eloki.github.io/2016/01/06/A91_Hexo常用插件列表/" data-id="cij4dxbgm00076own0q0dvy7q" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://eloki.github.io/2016/01/06/A91_Hexo常用插件列表/" data-id="cij4gx7jg0008dgwn7rv6gpli" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -262,7 +338,7 @@ $ npm install
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://eloki.github.io/2016/01/06/A90_Hexo在github上部署静态Blog/" data-id="cij4dxbgm00096ownmn42sok5" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://eloki.github.io/2016/01/06/A90_Hexo在github上部署静态Blog/" data-id="cij4gx7jg000adgwnq6u5qdzi" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -277,9 +353,9 @@ $ npm install
 
 
   
-    <article id="post-Z00_Git-for-Windows安装与使用" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-G00_Git-for-Windows安装与使用" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/blog/2016/01/01/Z00_Git-for-Windows安装与使用/" class="article-date">
+    <a href="/blog/2016/01/01/G00_Git-for-Windows安装与使用/" class="article-date">
   <time datetime="2016-01-01T14:58:12.000Z" itemprop="datePublished">2016-01-01</time>
 </a>
     
@@ -291,7 +367,7 @@ $ npm install
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/blog/2016/01/01/Z00_Git-for-Windows安装与使用/">Git for Windows安装与使用</a>
+      <a class="article-title" href="/blog/2016/01/01/G00_Git-for-Windows安装与使用/">Git for Windows安装与使用</a>
     </h1>
   
 
@@ -322,7 +398,7 @@ $ git config --list
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://eloki.github.io/2016/01/01/Z00_Git-for-Windows安装与使用/" data-id="cij4dxbg700056ownd66gu1mc" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://eloki.github.io/2016/01/01/G00_Git-for-Windows安装与使用/" data-id="cij4gx7jg0006dgwnc2p9jjtv" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -369,7 +445,7 @@ C:\Users\Mckay\AppData\Roaming\npm;
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://eloki.github.io/2016/01/01/A00_node-js开发环境/" data-id="cij4dxbfr00006ownii2ccwtj" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://eloki.github.io/2016/01/01/A00_node-js开发环境/" data-id="cij4gx7il0000dgwn4dm6p2k8" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -402,7 +478,7 @@ C:\Users\Mckay\AppData\Roaming\npm;
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/01/">一月 2016</a><span class="archive-list-count">5</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/01/">一月 2016</a><span class="archive-list-count">6</span></li></ul>
     </div>
   </div>
 
