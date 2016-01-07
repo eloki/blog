@@ -11,8 +11,8 @@
 环境变量C:\Program Files\Git\cmd;
 C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;
 
-申请Github账号https://github.com/
-设置Git的username和ema">
+配置申请Github账号https://github.com/
+设置Git的username和e">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git for Windows安装与使用">
 <meta property="og:url" content="http://eloki.github.io/2016/01/01/Git-for-Windows安装与使用/index.html">
@@ -22,9 +22,9 @@ C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;
 环境变量C:\Program Files\Git\cmd;
 C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;
 
-申请Github账号https://github.com/
-设置Git的username和ema">
-<meta property="og:updated_time" content="2016-01-06T15:23:07.332Z">
+配置申请Github账号https://github.com/
+设置Git的username和e">
+<meta property="og:updated_time" content="2016-01-07T14:47:56.348Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git for Windows安装与使用">
 <meta name="twitter:description" content="系统环境Windows 10 专业版
@@ -32,8 +32,8 @@ C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;
 环境变量C:\Program Files\Git\cmd;
 C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;
 
-申请Github账号https://github.com/
-设置Git的username和ema">
+配置申请Github账号https://github.com/
+设置Git的username和e">
   
     <link rel="alternative" href="/atom.xml" title="记忆碎片" type="application/atom+xml">
   
@@ -112,26 +112,29 @@ C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;
     <div class="article-entry" itemprop="articleBody">
       
         <p>系统环境<br>Windows 10 专业版</p>
-<h3 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h3><p><a href="https://git-for-windows.github.io/" target="_blank" rel="external">https://git-for-windows.github.io/</a></p>
-<h3 id="u73AF_u5883_u53D8_u91CF"><a href="#u73AF_u5883_u53D8_u91CF" class="headerlink" title="环境变量"></a>环境变量</h3><pre><code class="bash">C:\Program Files\Git\cmd;
+<h1 id="u4E0B_u8F7D_u5B89_u88C5"><a href="#u4E0B_u8F7D_u5B89_u88C5" class="headerlink" title="下载安装"></a>下载安装</h1><p><a href="https://git-for-windows.github.io/" target="_blank" rel="external">https://git-for-windows.github.io/</a></p>
+<h1 id="u73AF_u5883_u53D8_u91CF"><a href="#u73AF_u5883_u53D8_u91CF" class="headerlink" title="环境变量"></a>环境变量</h1><pre><code class="bash">C:\Program Files\Git\cmd;
 C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;
 </code></pre>
-<h3 id="u7533_u8BF7Github_u8D26_u53F7"><a href="#u7533_u8BF7Github_u8D26_u53F7" class="headerlink" title="申请Github账号"></a>申请Github账号</h3><p><a href="https://github.com/" target="_blank" rel="external">https://github.com/</a></p>
-<h3 id="u8BBE_u7F6EGit_u7684username_u548Cemail"><a href="#u8BBE_u7F6EGit_u7684username_u548Cemail" class="headerlink" title="设置Git的username和email"></a>设置Git的username和email</h3><pre><code class="bash">$ git config --global user.name <span class="string">"username"</span>
+<h1 id="u914D_u7F6E"><a href="#u914D_u7F6E" class="headerlink" title="配置"></a>配置</h1><p><strong>申请Github账号</strong><br><a href="https://github.com/" target="_blank" rel="external">https://github.com/</a></p>
+<p><strong>设置Git的username和email</strong></p>
+<pre><code class="bash">$ git config --global user.name <span class="string">"username"</span>
 $ git config --global user.email <span class="string">"name@org.com"</span>
 $ git config --list
 </code></pre>
-<h3 id="u751F_u6210_u5BC6_u94A5"><a href="#u751F_u6210_u5BC6_u94A5" class="headerlink" title="生成密钥"></a>生成密钥</h3><pre><code class="bash">$ ssh-keygen -t rsa -C <span class="string">"name@org.com"</span>
+<p><strong>生成密钥</strong></p>
+<pre><code class="bash">$ ssh-keygen -t rsa -C <span class="string">"name@org.com"</span>
 </code></pre>
-<h2 id="Github_u6DFB_u52A0ssh_key"><a href="#Github_u6DFB_u52A0ssh_key" class="headerlink" title="Github添加ssh key"></a>Github添加ssh key</h2><p>Account Settings -&gt; SSH Keys -&gt; Add SSH key</p>
-<h2 id="u9A8C_u8BC1ssh_key"><a href="#u9A8C_u8BC1ssh_key" class="headerlink" title="验证ssh key"></a>验证ssh key</h2><pre><code class="bash">$ ssh -T git@github.com
+<p><strong>Github添加ssh key</strong><br>Account Settings -&gt; SSH Keys -&gt; Add SSH key</p>
+<p><strong>验证ssh key</strong></p>
+<pre><code class="bash">$ ssh -T git@github.com
 </code></pre>
 
       
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://eloki.github.io/2016/01/01/Git-for-Windows安装与使用/" data-id="cij2y9bud0004jkwnwegkymvg" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://eloki.github.io/2016/01/01/Git-for-Windows安装与使用/" data-id="cij4dey5u0000uwwnr3lzl5vz" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
@@ -180,7 +183,7 @@ $ git config --list
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/01/">一月 2016</a><span class="archive-list-count">4</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/01/">一月 2016</a><span class="archive-list-count">5</span></li></ul>
     </div>
   </div>
 
